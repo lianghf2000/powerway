@@ -1,0 +1,125 @@
+/*
+Copyright Glory Sunshine  www.gonet.com.cn 北京盛世阳光公司 
+Fonts CSS
+$Revision: 1.67.8.1 $
+*/
+body
+{
+	font: 9pt 宋体;
+	color: #47211F;
+	line-height: 15pt;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.input
+{
+	background-color: #ffffff;
+	border-bottom: 1px double;
+	border-left: 1px double;
+	border-right: 1px double;
+	border-top: 1px double;
+	color: #666666;
+	font-size: 12px;
+	font-family: 宋体;
+	height: 20px;
+}
+.submit-botton
+{
+	font-weight: bold;
+	color: #336699;
+	font-size: 9pt;
+}
+img
+{
+	vertical-align:text-bottom;
+}
+table
+{
+	font-size: 12px;
+}
+a:link
+{
+	color: #800702;
+	font-size: 9pt;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #DE180F;
+	font-size: 9pt;
+	text-decoration: none;
+}
+a:active
+{
+	color: #4C0704;
+	font-size: 9pt;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #4C0704;
+	font-size: 9pt;
+	text-decoration: none;
+}
+.linkboldfont
+{
+	color: #ffffff;
+	font-size: 9pt;
+	font-family: verdana text-decoration: none;
+	font-weight: bold;
+}
+.linkthinfont
+{
+	color: #990000;
+	font-size: 9pt;
+	font-family: verdana text-decoration: none;
+	font-family: "宋体";
+	font-weight: bold;
+}
+.bigfont
+{
+	font-size: 1.75em;
+	color: #810101;
+}
+.smallfont
+{
+	font-size: 9pt;
+	color: #4D5156;
+}
+.localboldfont
+{
+	font-family: "宋体";
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.localthinfont
+{
+	font-family: "宋体";
+	font-size: 9pt;
+	color: #810101;
+}
+.greayboldfont
+{
+	font-family: "宋体" , Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: normal;
+	color: #ffffff;
+}
+.whitethinfont
+{
+	font-family: "宋体" , Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #ffffff;
+	font-weight: bold;
+}
+a.tool:hover, a.tool:active
+{
+	color: #fff;
+}
+a.tool:link, a.tool:visited
+{
+	color: #fff;
+}

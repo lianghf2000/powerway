@@ -1,0 +1,127 @@
+﻿body {
+	font-family:Arial!important;
+}
+a {
+	color:#A13!important;
+	text-decoration:none;
+}
+a:link {
+	color:#A13!important;
+}
+a:visited {
+	color:#939!important;
+}
+a:hover {
+	color:#089!important;
+	text-decoration:underline;
+}
+a:active {
+	color:#089!important;
+}
+strong {
+	font-weight:bold;
+}
+em {
+	font-style:italic;
+}
+h1 {
+	font-size:24px;
+	font-family:"Agfa Rotis Sans Serif",Arial;
+	font-weight:bold;
+}
+h2 {
+	font-size:21px;
+	font-family:"Agfa Rotis Sans Serif",Arial;
+}
+p {
+	font-size:12px;
+}
+.fcolor-a {
+	color:#A13;
+}
+.fcolor-b {
+	color:#600;
+}
+.fcolor-c {
+	color:#089;
+}
+.fcolor-d {
+	color:#515;
+}
+.fcolor-e {
+	color:#666;
+}
+.fcolor-f {
+	color:#333;
+}
+.fcolor-g {
+	color:#FFF;
+}
+.fcolor-h {
+	color:#999877;
+}
+.fsize-SectionTopicTitle {
+	font-size:24px;
+	color:#333;
+	font-family:"Agfa Rotis Sans Serif",Arial;
+	font-weight:bold;
+}
+.fsize-a {
+	font-size:24px;
+}
+.fsize-b {
+	font-size:21px;
+}
+.fsize-c {
+	font-size:12px;
+}
+.fsize-d {
+	font-size:11px;
+}
+.fsize-g {
+	font-size:10px;
+}
+.fsize-h {
+	font-size:13px;
+}
+.fsize-i {
+	font-size:14px;
+}
+.fsize-j {
+	font-size:16px;
+}
+.fsize-k {
+	font-size:17px;
+}
+.fsize-l {
+	font-size:19px;
+}
+.fsize-m {
+	font-size:20px;
+}
+.acn .topic-list dl dd a:hover,.acn .topic-list dl dd a:active {
+	color:#089;
+}
+.acn .topic-list dl dd a {
+	color:#333;
+}
+.acn ul.read-more li a {
+	color:#FFF;
+}
+.acn a.btn-alpha li a {
+	color:#FFF;
+}
+.acn a.btn-beta li a {
+	color:#FFF;
+}
+.acn div.containerDescription {
+	font-size:16px;
+	font-family:"Arial";
+}
+.acn div.containerDescription div {
+	font-size:16px;
+}
+.acn .containerBottomCenterWPZ {
+	font-size:11pt;
+	color:#333;
+}

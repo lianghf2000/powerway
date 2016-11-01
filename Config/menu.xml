@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <Menu id="1" Name="基本信息管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="edit.aspx?t=config&amp;id=id" Parent="root" ShowColumn="title" ContentTable="config" IsSpector="False">
+        <Menu id="2" Name="页面配置" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="edit.aspx?t=config&amp;id=1" Parent="1" ShowColumn="" ContentTable="" IsSpector="False">
+    </Menu>
+        
+    </Menu>
+
+    <Menu id="50" Name="首页焦点图管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="" Parent="root" ShowColumn="" ContentTable="T_tupian" IsSpector="False">
+        <Menu id="51" Name="首页焦点图管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="list.aspx?t=T_tupian" Parent="50" ShowColumn="" ContentTable="T_tupian" IsSpector="False" />
+    </Menu>
+    
+  <Menu id="82" Name="导航管理" Table="navType" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="nav" IsSpector="False">
+    <Menu id="83" Name="*导航分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=navType&amp;ct=nav" Parent="82" ShowColumn="" ContentTable="" IsSpector="False" />
+  </Menu>
+
+  <Menu id="84" Name="菜单管理" Table="menutype" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="menu" IsSpector="False">
+    <Menu id="85" Name="*菜单分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=menutype&amp;ct=menu" Parent="84" ShowColumn="" ContentTable="" IsSpector="False" />
+  </Menu>
+  
+  <Menu id="80" Name="国家城市管理" Table="countryType" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="country" IsSpector="False">
+    <Menu id="81" Name="*分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=countryType&amp;ct=country" Parent="80" ShowColumn="" ContentTable="" IsSpector="False" />
+  </Menu>
+
+  <Menu id="60" Name="底部信息管理" Table="newstype" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="news" IsSpector="False">
+    <Menu id="61" Name="*底部信息分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=newstype&amp;ct=news" Parent="60" ShowColumn="" ContentTable="" IsSpector="False" />
+  </Menu>
+
+    <Menu id="200" Name="英文 - 基本信息管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="edit.aspx?t=en_config&amp;id=id" Parent="root" ShowColumn="title" ContentTable="en_config" IsSpector="False">
+        <Menu id="201" Name="英文 - 页面配置" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="edit.aspx?t=en_config&amp;id=1" Parent="200" ShowColumn="" ContentTable="" IsSpector="False"></Menu>
+    </Menu>
+
+    <Menu id="210" Name="英文 - 导航管理" Table="en_navType" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="nav" IsSpector="False">
+        <Menu id="211" Name="英文 - *导航分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=en_navType&amp;ct=en_nav" Parent="210" ShowColumn="" ContentTable="" IsSpector="False" />
+    </Menu>
+
+    <Menu id="220" Name="英文 - 菜单管理" Table="en_menutype" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="en_menu" IsSpector="False">
+        <Menu id="221" Name="英文 - *菜单分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=en_menutype&amp;ct=en_menu" Parent="220" ShowColumn="" ContentTable="" IsSpector="False" />
+    </Menu>
+
+    <Menu id="230" Name="英文 - 底部信息管理" Table="en_newstype" ShowChild="True" IDColumn="id" ParentIDColumn="pid" Url="" Parent="root" ShowColumn="typename" ContentTable="en_news" IsSpector="False">
+        <Menu id="231" Name="英文 - *底部信息分类管理" Table="" ShowChild="False" IDColumn="" ParentIDColumn="" Url="menu.aspx?mt=en_newstype&amp;ct=en_news" Parent="230" ShowColumn="" ContentTable="" IsSpector="False" />
+    </Menu>
+    
+    <Menu id="90" Name="会员管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="" Parent="root" ShowColumn="" ContentTable="admins" IsSpector="False">
+        <Menu id="91" Name="会员管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="list.aspx?t=userVip" Parent="90" ShowColumn="" ContentTable="userVip" IsSpector="False" />
+    </Menu>
+    
+    <Menu id="92" Name="管理员" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="" Parent="root" ShowColumn="" ContentTable="admins" IsSpector="False">
+        <Menu id="93" Name="管理员管理" Table="" ShowChild="False" IDColumn="id" ParentIDColumn="" Url="list.aspx?t=admins" Parent="92" ShowColumn="" ContentTable="admins" IsSpector="False" />
+    </Menu>
+</root>

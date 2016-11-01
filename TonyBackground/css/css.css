@@ -1,0 +1,151 @@
+﻿body {
+}
+.TextBox
+{
+    
+}
+.DateTime
+{}
+.CheckBox
+{}
+.DropDownList
+{}
+.CheckBoxList
+{}
+.uploadImg
+{}
+.uploadImgFile
+{}
+.uploadImgButton
+{}
+.showss
+{
+    display:none;
+}
+.title
+{
+    text-align: center;
+    background-image: url('../images/di1.jpg');
+    background-color: #FFFFFF;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #C80514;
+    text-decoration: none;
+    height: 30px;
+}
+.TableCss
+{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #CFE7F7;
+    width: 98%;
+}
+.TableCss td
+{
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: lighter;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;    
+}
+.TableRowCss
+{}
+.leftCellCss
+{
+    width: 10%;
+    text-align: center;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #CFE7F7;
+}
+.rightCellCss
+{
+    width:90%
+}
+.CaptionCss
+{
+    text-align: center;    
+    background-color: #FFFFFF;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #C80514;
+    text-decoration: none;
+    height: 30px;
+}
+.Grid
+{
+    background-color: #CFE7F7;
+    width:100%;
+}
+.GridHeader th
+{
+    text-align: center;
+    background-image: url('../images/di1.jpg');
+    background-color: #FFFFFF;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #C80514;
+    text-decoration: none;
+    height: 30px;
+}
+.GridRow td
+{
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: lighter;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 30px;
+}
+.MenuGridRow td
+{
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: lighter;
+    color: #333333;
+    text-decoration: none;
+    background-color: #FFFFFF;    
+    height: 30px;
+}
+
+ a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(images/calendar.png) no-repeat; 
+    }
+    a.dp-choose-date.dp-disabled {
+	    background-position: 0 -20px;
+	    cursor: default;
+    }
+    /* makes the input field shorter once the date picker code
+     * has run (to allow space for the calendar icon
+     */
+    input.dp-applied {
+	    width: 140px;
+	    float: left;
+    }
+
+
+
+.topbj{background:url(../images/topbj.jpg) no-repeat top center;}
+.topnav{background:url(../images/topnav.jpg) no-repeat top center;}
+
+.white{color:#fff;}

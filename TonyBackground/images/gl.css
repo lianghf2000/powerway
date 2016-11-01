@@ -1,0 +1,72 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #f6f6f6; FONT-SIZE: 9pt; OVERFLOW-X: hidden; SCROLLBAR-HIGHLIGHT-COLOR: #dbe2e8; SCROLLBAR-SHADOW-COLOR: #dbe2e8; SCROLLBAR-3DLIGHT-COLOR: #dbe2e8; SCROLLBAR-ARROW-COLOR: #5e95c3; SCROLLBAR-TRACK-COLOR: #f1f4fc; FONT-FAMILY: Verdana, Arial, sans-serif, ËÎÌו; SCROLLBAR-DARKSHADOW-COLOR: #dbe2e8
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.tab1 {
+	BORDER-RIGHT: #7ea9b9 1px solid; BORDER-TOP: #7ea9b9 1px solid; BORDER-LEFT: #7ea9b9 1px solid; WIDTH: 200px; COLOR: #004592; BORDER-BOTTOM: #7ea9b9 1px solid
+}
+#tab1 A {
+	COLOR: #004592; TEXT-DECORATION: none
+}
+#tab1 A:hover {
+	COLOR: #004592; TEXT-DECORATION: underline
+}
+#tab1 A:visited {
+	COLOR: #004592; TEXT-DECORATION: none
+}
+TABLE {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-VARIANT: normal
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.orange {
+	FONT-WEIGHT: bold; COLOR: #f60
+}
+.sec_menu {
+	BORDER-RIGHT: white 1px solid; BACKGROUND: #fff; MARGIN: 3px; OVERFLOW: hidden; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid
+}
+.menu_title A {
+	COLOR: #375c77
+}
+.menu_title SPAN {
+	FONT-WEIGHT: bold; LEFT: 8px; COLOR: #375c77; POSITION: relative; TOP: 2px
+}
+.menu_title2 {
+	
+}
+.menu_title2 SPAN {
+	FONT-WEIGHT: bold; LEFT: 8px; COLOR: #ff6600; POSITION: relative; TOP: 2px
+}
+.tb_bg {
+	BORDER-BOTTOM: #ccc 1px dashed
+}
+.lp {
+	PADDING-LEFT: 10px
+}
+.xu {
+	BORDER-BOTTOM: #eee 1px dashed
+}
